@@ -1,0 +1,12 @@
+.parallax-image {
+    background-image: url('https://epupa.valoda.lv/wp-content/uploads/2021/01/gads.jpg'); /* Замените на ваш URL изображения */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px; /* Настройте высоту по необходимости */
+    width: 100%;
+    position: relative;
+    opacity: 0; /* Начинаем с невидимого состояния */
+    transform: translateY(100%); /* Начинаем с позиции ниже контейнера */
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out; /* Плавный переход */
+  }
